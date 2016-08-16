@@ -1,0 +1,144 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+  text-align: center; }
+
+h1, h2, h5, h4, h5, h6 {
+  font-family: 'Courgette', cursive;
+  color: #FAB672;
+  text-align: center; }
+
+a, p, i {
+  color: #fff;
+  font-style: italic;
+  text-decoration: none; }
+
+.fa {
+  color: #fff;
+  font-size: 15px; }
+
+.container {
+  padding: 0 15%; }
+
+.uno, .dos, .tres {
+  margin: 5% 0; }
+
+.trio {
+  padding: 0 0.5%; }
+
+.texto {
+  padding: 0 3%; }
+
+header {
+  background: #1C1821; }
+
+header .logo {
+  height: 3%;
+  width: 100%; }
+
+header .dropdown {
+  color: #fff; }
+
+header .dropdown button {
+  background: #1C1821;
+  border: none; }
+
+header .drop .dropdown-menu {
+  background: #2D2735;
+  color: #fff; }
+
+header .drop .dropdown-menu li a {
+  color: #fff; }
+
+/*MENU COMPUTADORA*/
+header .menu {
+  list-style: none;
+  margin-top: 3%;
+  text-align: right; }
+
+header .menu li {
+  float: right; }
+
+header .menu a {
+  padding-left: 30%;
+  text-decoration: none;
+  display: inline-block; }
+
+header .menu a:hover {
+  color: #FAB672; }
+
+section {
+  background: #2D2735; }
+
+section .uno {
+  background: url("../image/image2.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 300px; }
+
+section .uno div {
+  background: #1C1821;
+  width: 60%;
+  margin: 10% 20%;
+  padding: 5%; }
+
+section .dos .imgs {
+  padding: 0 0.5%; }
+
+section .dos .thumbnail {
+  padding: 0;
+  border: none; }
+
+section .dos .caption {
+  background: #1C1821; }
+
+section .tres .largo {
+  background: #1C1821; }
+
+section .tres .largo img {
+  width: 100%; }
+
+section .tres .search {
+  background: #1C1821;
+  height: 70px;
+  padding: 8px; }
+
+section .tres .search input {
+  background: #2D2735;
+  border: none;
+  border-radius: 5%;
+  padding: 10px;
+  margin: 5px 0;
+  color: #fff; }
+
+section .tres .me {
+  background: #1C1821; }
+
+section .tres .me img {
+  width: 100%; }
+
+section .tres .me i {
+  font-size: 15px;
+  background: #2D2735;
+  border-radius: 100%;
+  padding: 3%;
+  margin: 3% 1%; }
+
+footer {
+  background: #1C1821;
+  padding: 2%; }
+
+@media (max-width: 400px) {
+  .container {
+    padding: 3%; }
+
+  header .logo {
+    width: 50%;
+    float: left; }
+
+  header .drop {
+    margin: 3% 0%; }
+
+  section .uno p {
+    font-size: 10px; } }
+
+/*# sourceMappingURL=main.css.map */

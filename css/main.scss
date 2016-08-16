@@ -1,0 +1,148 @@
+ $blanco:#fff;
+ $morado:#1C1821;
+ $lila:#2D2735;
+ $naranja:#FAB672;
+body{
+	font-family: 'Open Sans', sans-serif;
+	text-align: center;
+}
+h1,h2,h5,h4,h5,h6{
+	font-family: 'Courgette', cursive;
+	color: $naranja;
+	text-align: center;
+}
+a,p,i{
+	color: $blanco;
+	font-style: italic;
+	text-decoration: none;
+}
+.fa{
+	color: $blanco;
+	font-size: 15px;
+}
+.container{
+	padding: 0 15%;
+}
+.uno,.dos,.tres{
+	margin: 5% 0;
+}
+.trio{
+	padding: 0 0.5%;
+}
+.texto{
+	padding: 0 3%;
+}
+header{
+	background:$morado;
+}
+header .logo{
+	height:3%;
+	width: 100%;
+}
+header .dropdown{
+	color: $blanco;
+}
+header .dropdown button{
+	background: $morado;
+	border:none;
+}
+header .drop .dropdown-menu{
+	background: $lila;
+	color: $blanco;
+}
+header .drop .dropdown-menu li a{
+	color: $blanco;
+}
+/*MENU COMPUTADORA*/
+header .menu{
+	list-style: none;
+	margin-top: 3%;
+	text-align: right;
+}
+header .menu li{
+	float: right;
+}
+header .menu a{
+	padding-left: 30%;
+	text-decoration: none;
+	display: inline-block;
+}
+header .menu a:hover{
+	color: $naranja;
+}
+section{
+	background:$lila;
+}
+section .uno{
+	background:url("../image/image2.jpg");
+	background-size: cover;
+	background-position:center;
+	height: 300px;
+}
+section .uno div{
+	background: $morado;
+	width: 60%;
+	margin:10% 20%;
+	padding: 5%;
+}
+section .dos .imgs{
+	padding:0 0.5%;
+}
+
+section .dos .thumbnail{
+	padding: 0;
+	border:none;
+}
+section .dos .caption{
+	background: $morado;
+}
+section .tres .largo{
+	background: $morado;
+}
+section .tres .largo img{
+	width: 100%;
+}
+section .tres .search{
+	background: $morado;
+	height: 70px;
+	padding: 8px;
+}
+section .tres .search input{
+	background: $lila;
+	border: none;
+	border-radius: 5%;
+	padding: 10px;
+	margin: 5px 0;
+	color:$blanco;
+}
+section .tres .me{
+	background: $morado;
+}
+section .tres .me img{
+	width: 100%;
+}
+section .tres .me i{
+	font-size: 15px;
+	background: $lila;
+	border-radius: 100%;
+	padding: 3%;
+	margin: 3% 1%;
+}
+footer{
+	background:$morado;
+	padding: 2%;
+}
+
+@media (max-width: 400px){
+	.container{
+		padding:3%;}
+	header .logo{
+		width: 50%;
+		float: left;
+	}
+	header .drop{
+		margin: 3% 0%;
+	}
+	section .uno p{
+		font-size: 10px;}
+}
